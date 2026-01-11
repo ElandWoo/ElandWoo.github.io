@@ -1,8 +1,3 @@
-.avr,
-.footer.footer-fixed {
-  bottom: 0
-}
-
 .button,
 .home-link,
 a,
@@ -22,7 +17,6 @@ aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 main,
@@ -41,8 +35,6 @@ ul {
 
 
 #title,
-.footer,
-.footer-inner,
 .menu,
 .navbar-collapse,
 .post-button,
@@ -67,7 +59,6 @@ ul {
 }
 
 .centercolumn,
-.footer-inner,
 .musicicon,
 .sidebar-inner {
   box-sizing: border-box
@@ -193,15 +184,6 @@ h6 {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-
-
-.avr,
-.footer.footer-fixed {
-  position: absolute;
-  right: 0;
-  left: 0
-}
-
 .avr {
   display: flex;
   justify-content: center;
@@ -220,7 +202,6 @@ audio {
 }
 
 .button,
-.footer,
 .sidebar-nav li {
   font-size: .875em
 }
@@ -280,15 +261,6 @@ audio {
   padding: 0 400px;
   z-index: 1000;
   overflow: hidden
-}
-
-.footer {
-  background-image: linear-gradient(white-space)
-}
-
-.footer-inner {
-  margin: 0 auto;
-  width: calc(100% - 20px)
 }
 
 .button {
@@ -389,8 +361,6 @@ audio {
 }
 
 @media (min-width:1200px) {
-
-  .footer-inner,
   .header-inner,
   .main-inner {
     width: 1160px
