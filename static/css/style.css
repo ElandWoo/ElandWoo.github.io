@@ -121,16 +121,6 @@ container {
   border-width: 0 0 1px
 }
 
-.navbar {
-  font-size: 14px;
-  font-weight: 400;
-  font-style: normal;
-  text-transform: uppercase;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent
-}
-
 .site-title {
   color: #fff;
   font-size: 2em;
@@ -203,13 +193,7 @@ h6 {
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1)
 }
 
-.site-header {
-  background: #1d2b2d;
-  width: 100%;
-  margin-bottom: 3em;
-  overflow: hidden;
-  min-height: 135px
-}
+
 
 .avr,
 .footer.footer-fixed {
@@ -497,16 +481,34 @@ ul {
   height: 40px;
 }
 
+.site-header {
+  background: #1d2b2d;
+  width: 100%;
+  margin-bottom: 3em;
+  overflow: hidden;
+  min-height: 135px
+}
+
+.navbar {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent
+}
+
 .navbar-nav>li>a {
   float: right;
   padding: 10px 15px;
   line-height: 20px;
   color: #fff;
   background-color: transparent;
+  border-color: transparent;
 }
 
-a:active,
-a:hover {
+.navbar-nav>li>a:hover {
   /* color: #009688; */
   border-style: solid;
   border-color: #fff;
