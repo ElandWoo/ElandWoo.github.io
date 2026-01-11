@@ -361,6 +361,7 @@ audio {
 }
 
 @media (min-width:1200px) {
+
   .header-inner,
   .main-inner {
     width: 1160px
@@ -476,6 +477,7 @@ ul {
   color: #fff;
   background-color: transparent;
   border-color: transparent;
+  display: inline-block;
 }
 
 .navbar-nav>li>a:hover {
@@ -578,15 +580,6 @@ container {
   }
 }
 
-.header-inner {
-  margin: 0 auto;
-  background: #fff;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  width: 240px
-}
 
 @media (min-width:1200px) {
   .header-inner {
@@ -681,4 +674,32 @@ container {
   .post-button a {
     font-size: 12px
   }
+}
+
+.footer {
+  padding: 3em 1.5em;
+  background: #E8EEF4;
+  color: #7c8081;
+  padding: 5em 5em 10em 5em;
+  text-align: center;
+}
+
+.footer .copyright li {
+  display: block;
+  margin: 1em 0 0 0;
+  padding: 0;
+  border: 0;
+  display: inline-block;
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: dotted 1px;
+}
+
+.footer .copyright {
+  font-size: 0.8em;
+  line-height: 1em;
+}
+
+.footer .copyright a {
+  color: inherit;
 }
