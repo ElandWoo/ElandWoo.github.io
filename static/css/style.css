@@ -19,6 +19,10 @@ ul {
   display: block
 }
 
+a {
+  text-decoration: none;
+}
+
 .site-description,
 .site-title {
   text-shadow: rgba(255, 255, 255, .1) -1px -1px 1px, rgba(0, 0, 0, .5) 1px 1px 1px
@@ -190,13 +194,13 @@ h6 {
 
 .music,
 audio {
-  bottom: 50px;
+  bottom: 10%;
   position: fixed
 }
 
 .button,
 .sidebar-nav li {
-  font-size: .875em
+  font-size: .875em;
 }
 
 .centercolumn {
@@ -266,7 +270,7 @@ audio {
 
 .back-to-top-btn {
   right: 0px;
-  bottom: 300px;
+  top: 50%;
   width: 40px;
   height: 30px;
   background-color: #ccc;
@@ -434,12 +438,13 @@ ul {
   height: 30px;
 }
 
-.site-header {
+header {
   background: #1d2b2d;
-  width: 100%;
   margin-bottom: 3em;
-  overflow: hidden;
-  min-height: 50px;
+}
+
+.site-nav-toggle {
+  padding: 3em 0em 3em 0em;
 }
 
 .navbar {
@@ -658,10 +663,9 @@ container {
 }
 
 .footer {
-  padding: 3em 1.5em;
   background: #1d2b2d;
   color: #7c8081;
-  padding: 5em 5em 10em 5em;
+  padding: 3em 0em 3em 0em;
   text-align: center;
 }
 
