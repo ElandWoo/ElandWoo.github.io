@@ -194,7 +194,6 @@ h6 {
   font-weight: 500
 }
 
-.back-to-top-btn,
 .music,
 audio {
   bottom: 50px;
@@ -204,10 +203,6 @@ audio {
 .button,
 .sidebar-nav li {
   font-size: .875em
-}
-
-audio {
-  right: 0
 }
 
 .centercolumn {
@@ -237,22 +232,10 @@ audio {
 
 .music {
   z-index: 999;
-  right: 50px;
+  right: 30px;
   width: 66px;
   height: 66px;
   animation: 5s linear infinite musics
-}
-
-@keyframes musics {
-  from {
-    transform: rotate (0);
-    opacity: .6
-  }
-
-  to {
-    transform: rotate(360deg);
-    opacity: .8
-  }
 }
 
 .musicicon {
@@ -263,11 +246,20 @@ audio {
   overflow: hidden
 }
 
+@keyframes musics {
+  from {
+    transform: rotate (0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .button {
   background: var(#fff);
   border: 2px solid;
   border-radius: 16px;
-  color: var(#555);
   display: inline-block;
   line-height: 2;
   padding: 0 20px;
@@ -279,7 +271,8 @@ audio {
 }
 
 .back-to-top-btn {
-  left: 50px;
+  right: 0px;
+  bottom: 300px;
   width: 40px;
   height: 30px;
   background-color: #ccc;
@@ -288,20 +281,15 @@ audio {
   transition: opacity .2s ease-in-out;
   z-index: 9999;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
   color: #fff;
-  font-weight: 700;
-  font-size: 16px
+
+  position: fixed
 }
 
 .back-to-top-btn:hover {
   opacity: 1;
-  background-color: #bbb
-}
-
-.back-to-top-btn:hover .back-to-top-icon {
+  background-color: #bbb;
   transform: translateY(-3px)
 }
 
@@ -447,9 +435,9 @@ ul {
 }
 
 .top-menu-icon {
+  margin-top: 5px;
   float: left;
-  line-height: 20px;
-  height: 40px;
+  height: 30px;
 }
 
 .site-header {
@@ -457,7 +445,7 @@ ul {
   width: 100%;
   margin-bottom: 3em;
   overflow: hidden;
-  min-height: 135px
+  min-height: 50px;
 }
 
 .navbar {
@@ -466,7 +454,6 @@ ul {
   font-style: normal;
   text-transform: uppercase;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent
 }
 
@@ -678,7 +665,7 @@ container {
 
 .footer {
   padding: 3em 1.5em;
-  background: #E8EEF4;
+  background: #1d2b2d;
   color: #7c8081;
   padding: 5em 5em 10em 5em;
   text-align: center;
