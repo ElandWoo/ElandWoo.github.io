@@ -1,18 +1,9 @@
-.button,
-.home-link,
-a,
-a:active,
-a:hover {
-  text-decoration: none
-}
-
 .aside,
 .header,
 .nav>li,
 .nav>li>a,
 .site-nav,
 .site-nav.site-nav-on,
-article,
 aside,
 details,
 figcaption,
@@ -46,16 +37,19 @@ ul {
   text-align: center
 }
 
-
-
-
-
 * {
   margin: 0;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box
+}
+
+.article {
+  text-indent: 2em;
+  /* white-space: pre;
+  overflow: hidden;
+  text-overflow: ellipsis; */
 }
 
 .centercolumn,
